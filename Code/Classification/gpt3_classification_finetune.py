@@ -43,9 +43,6 @@ training_data.to_json("train.jsonl", orient='records', lines=True)
 !openai --api-key "<replace_with_your_key>" api fine_tunes.create -t 'train_prepared.jsonl' -m ada --n_epochs 4 --batch_size 16
 
 #run this only for finetuning
-#!openai --api-key "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" api fine_tunes.create -t 'train_prepared.jsonl' -m ada:ft-personal-2023-05-09-04-48-07 --n_epochs 1 --batch_size 16 --learning_rate_multiplier 0.1
-
-#run this only for finetuning
 !openai --api-key "<replace_with_your_key>" api fine_tunes.follow -i ft-9yzFGA1ozGylHQz5OvxOs6PK
 
 !openai --api-key "<replace_with_your_key>" api fine_tunes.results -i ft-9yzFGA1ozGylHQz5OvxOs6PK > results.csv
