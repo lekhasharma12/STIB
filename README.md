@@ -1,4 +1,4 @@
-# STIB
+# Spill the Implicit Beans : Interpreting figurative texts using prompting
 
 "Spill the implicit beans" or STIB is project to leverage different prompting strategies to get better literal translations for figurative language types, specifically Metaphor, Idiom, Simile and Sarcasm.
 
