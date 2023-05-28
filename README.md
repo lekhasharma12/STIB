@@ -6,4 +6,4 @@ We use zero-shot prompting as our baseline and then test few-shot prompting, ins
 
 Our Dataset folder consists of train and test data for both Classification and Prompting.
 
-Our Code folder is also divided into Classification and Prompting folders and each of them consists of separate code files for each strategy of classification and prompting clearly specified by the file name. Please see [this](https://drive.google.com/file/d/1HPDcTsoQWwl3CrgUD6COQzNCWvbb7_Hn/view?usp=sharing) for a more detailed analysis.
+Our Code folder is also divided into Classification and Prompting folders and each of them consists of separate code files for each strategy of classification and prompting clearly specified by the file name. Please see [this report](https://drive.google.com/file/d/1HPDcTsoQWwl3CrgUD6COQzNCWvbb7_Hn/view?usp=sharing) for a more detailed analysis.
